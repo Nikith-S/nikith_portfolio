@@ -13,6 +13,7 @@ export interface INavItem {
   name: string;
   link: string;
   icon: IconProp;
+  download?: boolean;
 }
 
 export interface IExperienceItem {
