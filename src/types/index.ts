@@ -130,8 +130,8 @@ export interface TimelineEntry {
 }
 
 export interface BulletedTextProps {
-  children: ReactNode;
-  classNames?: string;
-  iconSize?: string | number;
-  bulletColor?: string;
+  children: ReactNode; // Content inside the bullet
+  classNames?: string; // Custom CSS classes for styling
+  iconSize?: string | number; // Size of the bullet icon
+  bulletColor?: string; // Color of the bullet
 }
