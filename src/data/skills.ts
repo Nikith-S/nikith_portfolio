@@ -15,9 +15,19 @@ const skills: ISkillListItem[] = [
         icon: "/skills/typescript.svg",
       },
       {
-        title: "Dart",
+        title: "C++",
         level: SkillLevel.Expert,
-        icon: "/skills/dart.svg",
+        icon: "/skills/c++.svg",
+      },
+      {
+        title: "C",
+        level: SkillLevel.Expert,
+        icon: "/skills/c.svg",
+      },
+      {
+        title: "Python",
+        level: SkillLevel.Expert,
+        icon: "/skills/python.svg",
       },
     ],
   },
@@ -74,25 +84,10 @@ const skills: ISkillListItem[] = [
         level: SkillLevel.Intermediate,
         icon: "/skills/socket-io.png",
       },
-      // {
-      //   title: "Nest.js",
-      //   level: SkillLevel.Beginner,
-      //   icon: "/skills/nestjs.svg",
-      // },
-    ],
-  },
-  {
-    title: "Mobile App Development",
-    items: [
       {
-        title: "Flutter",
-        level: SkillLevel.Expert,
-        icon: "/skills/flutter.svg",
-      },
-      {
-        title: "GetX",
-        level: SkillLevel.Expert,
-        icon: "/skills/getx.png",
+        title: "Nest.js",
+        level: SkillLevel.Beginner,
+        icon: "/skills/nestjs.svg",
       },
     ],
   },
@@ -139,6 +134,21 @@ const skills: ISkillListItem[] = [
         level: SkillLevel.Expert,
         icon: "/skills/github.svg",
       },
+      {
+        title: "Kubernetes",
+        level: SkillLevel.Expert,
+        icon: "/skills/kubernetes.svg",
+      },
+      {
+        title: "Jenkins",
+        level: SkillLevel.Beginner,
+        icon: "/skills/jenkins.svg",
+      },
+      {
+        title: "Terraform",
+        level: SkillLevel.Beginner,
+        icon: "/skills/terraform.svg",
+      },
     ],
   },
   {
@@ -153,6 +163,26 @@ const skills: ISkillListItem[] = [
         title: "Ubuntu",
         level: SkillLevel.Intermediate,
         icon: "/skills/ubuntu.png",
+      },
+    ],
+  },
+  {
+    title: "AIML",
+    items: [
+      {
+        title: "Python",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/python.svg",
+      },
+      {
+        title: "Tensorflow",
+        level: SkillLevel.Beginner,
+        icon: "/skills/tensorflow.svg",
+      },
+      {
+        title: "Pytorch",
+        level: SkillLevel.Beginner,
+        icon: "/skills/pytorch.svg",
       },
     ],
   },
