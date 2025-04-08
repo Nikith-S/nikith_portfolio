@@ -171,7 +171,7 @@ const skills: ISkillListItem[] = [
     items: [
       {
         title: "Python",
-        level: SkillLevel.Intermediate,
+        level: SkillLevel.Beginner,
         icon: "/skills/python.svg",
       },
       {
