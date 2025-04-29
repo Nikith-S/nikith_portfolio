@@ -13,16 +13,18 @@ const projects: IProjectItem[] = [
     url: "https://nixlab-shop.vercel.app",
     tags: ["React.js", "Redux", "Material UI", "Stripe"],
   },
+
   {
-    id: "social-media-api-nodejs",
-    title: "Social Media API",
+    id: "solana token generator",
+    title: "Blockchain App",
     description:
-      "A RESTful API developed using Node.js, Express.js, and MongoDB to integrate backend and frontend with ease.",
-    icon: "/skills/nestjs.svg",
+      "A solana token generator blockchain app built using next.js, typescript,web3.js",
+    icon: "/skills/blockchain.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/social-media-api-nodejs",
-    tags: ["Node.js", "Express.js", "MongoDB", "WebSocket"],
+    githubUrl: "https://github.com/Nikith-S/SolanaSols",
+    url: "https://nikith-solana-sols.vercel.app/",
+    tags: ["Next.js", "Typescript", "Web3.js", "Tailwind"],
   },
   {
     id: "e-commerce-api-nodejs",
@@ -32,19 +34,8 @@ const projects: IProjectItem[] = [
     icon: "/skills/nodejs.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/ecommerce-api-nodejs",
+    githubUrl: "https://github.com/Nikith-S/",
     tags: ["Node.js", "Express.js", "MongoDB", "Stripe"],
-  },
-  {
-    id: "get-time-ago-package",
-    title: "GetTimeAgo Package",
-    description:
-      "A Dart package that converts and formats DateTime objects into human-readable 'time ago' strings, such as '20 seconds ago', 'a minute ago', or '7 hours ago'.",
-    icon: "/skills/dart.svg",
-    repoType: RepoType.Public,
-    projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/gettimeago",
-    tags: ["Dart", "DateTime", "Formatting"],
   },
   {
     id: "portfolio-website",
@@ -54,8 +45,8 @@ const projects: IProjectItem[] = [
     icon: "/skills/nextjs.png",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/portfolio-website",
-    url: "https://nixrajput.dev",
+    githubUrl: "https://github.com/Nikith-S/",
+    url: "https://",
     tags: ["Next.js", "Sass", "Web Development"],
   },
   {
@@ -66,7 +57,7 @@ const projects: IProjectItem[] = [
     icon: "/skills/cpp.png",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/bus-reservation-system",
+    githubUrl: "https://github.com/Nikith-S",
     tags: ["C++", "OOP", "File Handling"],
   },
 ];
