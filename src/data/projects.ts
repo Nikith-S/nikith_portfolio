@@ -2,18 +2,6 @@ import { IProjectItem, ProjectType, RepoType } from "@/types";
 
 const projects: IProjectItem[] = [
   {
-    id: "social-media-app-flutter",
-    title: "Social Media App",
-    description:
-      "A social media mobile application developed using Flutter, GetX, Firebase Notifications and Hive.",
-    icon: "/skills/flutter.svg",
-    repoType: RepoType.Public,
-    projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/social-media-app-flutter",
-    url: "https://github.com/nixrajput/social-media-app-flutter/releases",
-    tags: ["Flutter", "Dart", "GetX", "Hive"],
-  },
-  {
     id: "e-commerce-app-mern",
     title: "E-commerce App",
     description:
@@ -24,18 +12,6 @@ const projects: IProjectItem[] = [
     githubUrl: "https://github.com/nixrajput/ecommerce-web-reactjs",
     url: "https://nixlab-shop.vercel.app",
     tags: ["React.js", "Redux", "Material UI", "Stripe"],
-  },
-  {
-    id: "video-calling-app-flutter",
-    title: "Video Calling App",
-    description:
-      "A video calling mobile application developed using Flutter and Agora SDK that allows users to call each other face to face.",
-    icon: "/skills/flutter.svg",
-    repoType: RepoType.Public,
-    projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/video-calling-app-flutter",
-    url: "https://github.com/nixrajput/video-calling-app-flutter/releases",
-    tags: ["Flutter", "Dart", "GetX", "Agora SDK"],
   },
   {
     id: "social-media-api-nodejs",
@@ -49,18 +25,6 @@ const projects: IProjectItem[] = [
     tags: ["Node.js", "Express.js", "MongoDB", "WebSocket"],
   },
   {
-    id: "grocery-list-maker-app-flutter",
-    title: "Grocery List Maker App",
-    description:
-      "A grocery list maker mobile application developed using Flutter, BloC, Hive DB, and PDF.",
-    icon: "/skills/flutter.svg",
-    repoType: RepoType.Public,
-    projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/grocery-list-maker-flutter",
-    url: "https://github.com/nixrajput/grocery-list-maker-flutter/releases/latest",
-    tags: ["Flutter", "Dart", "BLoC", "PDF", "Hive"],
-  },
-  {
     id: "e-commerce-api-nodejs",
     title: "E-commerce API",
     description:
@@ -70,17 +34,6 @@ const projects: IProjectItem[] = [
     projectType: ProjectType.Personal,
     githubUrl: "https://github.com/nixrajput/ecommerce-api-nodejs",
     tags: ["Node.js", "Express.js", "MongoDB", "Stripe"],
-  },
-  {
-    id: "flutter-carousel-widget-package",
-    title: "Flutter Carousel Widget Package",
-    description:
-      "A customizable carousel widget for Flutter, offering features such as infinite scrolling, auto-scrolling, custom child widgets, pre-built indicators, expandable child widgets, auto-sized child support, and enlarged center page.",
-    icon: "/skills/flutter.svg",
-    repoType: RepoType.Public,
-    projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/flutter-carousel-widget-package",
-    tags: ["Flutter", "Dart", "Carousel"],
   },
   {
     id: "get-time-ago-package",
