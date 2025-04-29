@@ -9,7 +9,7 @@ const projects: IProjectItem[] = [
     icon: "/skills/react.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/ecommerce-web-reactjs",
+    githubUrl: "https://github.com/Nikith-S",
     url: "https://nixlab-shop.vercel.app",
     tags: ["React.js", "Redux", "Material UI", "Stripe"],
   },
