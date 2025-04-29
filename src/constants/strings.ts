@@ -16,8 +16,8 @@ class Strings {
   static instagramUsername = "Nikith";
 
   static email = "Email";
-  static primaryEmailLink = "mailto:nkr.nikhil.nkr@gmail.com";
-  static primaryEmail = "nkr.nikhil.nkr@gmail.com";
+  static primaryEmailLink = "mailto:nikith391@gmail.@gmail.com";
+  static primaryEmail = "nikith391@gmail.com";
 
   static fullName = "Nikith S";
   static shortName = "nikith";

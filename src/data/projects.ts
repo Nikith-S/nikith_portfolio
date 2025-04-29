@@ -1,7 +1,20 @@
 import { IProjectItem, ProjectType, RepoType } from "@/types";
 
 const projects: IProjectItem[] = [
-  {
+
+    {
+      id: "portfolio-website",
+      title: "Portfolio Website",
+      description:
+        "This repository contains the source code for a portfolio website built using Next.js and Sass.",
+      icon: "/skills/nextjs.png",
+      repoType: RepoType.Public,
+      projectType: ProjectType.Personal,
+      githubUrl: "https://github.com/Nikith-S/",
+      url: "https://nikith-portfolio-z7kv.vercel.app",
+      tags: ["Next.js", "Sass", "Web Development"],
+    },
+    {
     id: "e-commerce-app-mern",
     title: "E-commerce App",
     description:
@@ -37,18 +50,7 @@ const projects: IProjectItem[] = [
     githubUrl: "https://github.com/Nikith-S/",
     tags: ["Node.js", "Express.js", "MongoDB", "Stripe"],
   },
-  {
-    id: "portfolio-website",
-    title: "Portfolio Website",
-    description:
-      "This repository contains the source code for a portfolio website built using Next.js and Sass.",
-    icon: "/skills/nextjs.png",
-    repoType: RepoType.Public,
-    projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/Nikith-S/",
-    url: "https://",
-    tags: ["Next.js", "Sass", "Web Development"],
-  },
+
   {
     id: "bus-reservation-system-management",
     title: "Bus Reservation System Management",
