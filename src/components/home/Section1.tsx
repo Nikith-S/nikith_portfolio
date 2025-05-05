@@ -43,13 +43,13 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
           <div className="mt-2 lg:mt-4 w-full max-w-5xl flex flex-col-reverse md:flex-row items-center gap-8 p-6 mx-auto">
             <div className="flex-1 text-center md:text-left">
               <p className="text-xl/normal dark:text-[var(--textColorLight)] text-[var(--textColorLight)]">
-                I am a highly motivated Computer Science student with a strong
-                foundation in software development, cloud computing, and DevOps
-                practices. With a keen interest in full-stack web development
-                and automation, I am dedicated to improving system efficiency
-                and reliability. My ability to adapt and learn new technologies
-                allows me to continuously enhance my skills and contribute to
-                impactful solutions in the tech industry.
+                I am a highly motivated Computer Science professional with a
+                strong foundation in software development, cloud computing, and
+                DevOps practices. With a keen interest in full-stack web
+                development and automation, I am dedicated to improving system
+                efficiency and reliability. My ability to adapt and learn new
+                technologies allows me to continuously enhance my skills and
+                contribute to impactful solutions in the tech industry.
               </p>
             </div>
             <div className="w-48 h-48 relative rounded-full overflow-hidden border-4 border-[var(--primaryColor)]">
