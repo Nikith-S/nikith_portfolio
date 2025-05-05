@@ -62,5 +62,19 @@ const projects: IProjectItem[] = [
     githubUrl: "https://github.com/Nikith-S",
     tags: ["C++", "OOP", "File Handling"],
   },
+
+
+  {
+    id: "Devops Project",
+    title: "Devops Containerization Project",
+    description:
+      "This repository contains the devops practises which are made using tools like Docker, Kubernets and many other devops tools to get hands on exprience on Devops pratices .",
+    icon: "/skills/devops.svg",
+    repoType: RepoType.Public,
+    projectType: ProjectType.Personal,
+    githubUrl: "https://github.com/Nikith-S/Devops/tree/main/go-web-app-devops-main",
+    tags: ["Docker", "Kubernetes", "DevOps", "Grafana", "Helm"],
+  },
+
 ];
 export default projects;
